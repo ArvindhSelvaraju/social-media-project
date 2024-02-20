@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .navbar{
+        @apply w-full h-[120px] flex items-center justify-end;
+        background-color: slateblue;
+    }
+    .post{
+        margin: 50px 33% 50px;
+        width: 550px;
+        height: auto;
+        background-color: whitesmoke;
+        border-radius: 30px;
+        padding: 30px 30px 30px 30px;
+    }
+    .title{
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 30px;
+        font-size: xx-large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 3rem;
+    }
+}
